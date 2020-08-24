@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.portfolio-item{
+  cursor: pointer;
+}
+
+#ReactBackgroundSlider > figure {
+  position: fixed !important;
+}
