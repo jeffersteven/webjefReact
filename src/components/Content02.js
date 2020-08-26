@@ -1,6 +1,7 @@
 import React , {Component} from 'react';
 import back01 from '../images/slider1.jpg';
 import back02 from '../images/slider2.jpg';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 class Content02 extends Component {
     constructor(props) {
@@ -19,7 +20,7 @@ class Content02 extends Component {
                     Es de vital importancia para nosotros materializar sus proyectos,<br />
                     asesoraremos y brindaremos las herrramientas necesarias para lograr los objetivos propuestos.</p>
                     <footer>
-                        <a href="#first" className="button style2 scrolly">Conociendonos</a>
+                        <AnchorLink href='#first'><a className="button style2 scrolly-middle">Conociendonos</a></AnchorLink>
                     </footer>
                 </section>
 

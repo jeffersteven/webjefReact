@@ -1,0 +1,13 @@
+.sucsess  {
+  margin: 20px 0;
+  border: 1px solid #0c8fa9;
+  padding: 7px;
+  font-weight: bold;
+}
+
+.error {
+  margin: 20px 0;
+  border: 1px solid #630001;
+  padding: 7px;
+  font-weight: bold;
+}

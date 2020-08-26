@@ -1,5 +1,6 @@
 import React , {Component} from 'react';
 import logowj from '../images/logowj.png';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 class Headers extends Component {
     constructor(props) {
@@ -15,7 +16,7 @@ class Headers extends Component {
                     </div>
                 </header>
                 <footer>
-                    <a href="#banner" className="button style2 scrolly-middle">Iniciar</a>
+                    <AnchorLink href='#banner'><a className="button style2 scrolly-middle">Iniciar</a></AnchorLink>
                 </footer>				
                 {/* <!--Thumbnail Navigation--> */}
                 <div id="prevthumb"></div>

@@ -14,7 +14,7 @@ import img11 from '../assets/img/portfolio/11.jpg';
 import img12 from '../assets/img/portfolio/12.jpg';
 import img13 from '../assets/img/portfolio/13.jpg';
 import img14 from '../assets/img/portfolio/14.jpg';
-import img15 from '../assets/img/portfolio/15.jpg';
+import img15 from '../assets/img/portfolio/16.jpg';
 
 class Projects extends Component {
     constructor(props) {
@@ -34,6 +34,7 @@ class Projects extends Component {
         this.cat04 = (this.categorias.filter(val=>val.id==="04"))[0].name;        
         this.cat05 = (this.categorias.filter(val=>val.id==="05"))[0].name;        
         this.cat06 = (this.categorias.filter(val=>val.id==="06"))[0].name;
+        this.cat07 = (this.categorias.filter(val=>val.id==="07"))[0].name;
     }
     render(){
         return (

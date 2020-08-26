@@ -5504,7 +5504,7 @@ a.close.disabled {
   border-top-right-radius: calc(0.3rem - 1px);
 }
 .modal-header .close {
-  padding: 1rem 1rem;
+  padding: 25px !important;
   margin: -1rem -1rem -1rem auto;
 }
 
@@ -10509,8 +10509,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .modal-header .close {
-  color: #fff;  
-  padding: 5px 0;
+  color: #fff;
   margin: 0;
   width: 15px;
 }

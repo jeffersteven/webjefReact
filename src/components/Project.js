@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import '../App.scss';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -35,7 +34,7 @@ function Project(props) {
                     <li>Fecha: {props.date}</li>
                     <li>Categoría: {props.category}</li>
                 </ul>                
-                <p className="item-intro text-muted">{props.link}</p>
+                <p className="item-intro">{props.link}</p>
             </Modal.Body>
             <Modal.Footer>
                 <Button variant="secondary" onClick={handleClose}>
