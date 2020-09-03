@@ -7,17 +7,18 @@ import Landing from './components/Landing.js';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowAltCircleUp } from '@fortawesome/free-solid-svg-icons';
-import { loadReCaptcha } from 'react-recaptcha-google'
+import { createBrowserHistory } from 'history';
+
+export const history = createBrowserHistory({
+  basename: process.env.PUBLIC_URL
+});
  
 class App extends Component {
-  componentDidMount() {
-    loadReCaptcha();
-  }
   render(){
     return (
       <BrowserRouter>
         <div className="App" id="top">
-          <Route exact path="/" component={Landing} />
+          <Route exact path="/webjef/" component={Landing} />
         </div>
         <AnchorLink href='#top' className="button style btnbottom scrolly-middle"><FontAwesomeIcon icon={faArrowAltCircleUp} /></AnchorLink>
       </BrowserRouter>
