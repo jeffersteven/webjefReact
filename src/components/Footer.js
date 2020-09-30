@@ -11,7 +11,6 @@ class Footer extends Component {
                 <section id="footer">
                     <ul className="icons">
                         <li><a className="icon fa-envelope-o"><span className="label"></span></a></li>contacto@webjef.com<br />
-                        <li><a className="icon fa-envelope-o"><span className="label"></span></a></li>jeffersteven@webjef.com<br />
                         <li><a className="icon fa-phone-square"><span className="label"></span></a></li>+57 305 737 4440<br />
                         <li><a className="icon fa-instagram" href="https://www.instagram.com/webjef_com/" rel="publisher" target="_blank"><span className="label"></span></a></li>Instagram<br />
                         
