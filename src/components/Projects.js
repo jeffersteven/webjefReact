@@ -15,6 +15,9 @@ import img12 from '../assets/img/portfolio/12.jpg';
 import img13 from '../assets/img/portfolio/13.jpg';
 import img14 from '../assets/img/portfolio/14.jpg';
 import img15 from '../assets/img/portfolio/16.jpg';
+import dpat from '../assets/img/portfolio/dpat.jpg';
+import ocassole from '../assets/img/portfolio/ocassole.jpg';
+import musaic from '../assets/img/portfolio/musaic.jpg';
 
 class Projects extends Component {
     constructor(props) {
@@ -26,7 +29,9 @@ class Projects extends Component {
             {"id":"04", "name":"Administración"},
             {"id":"05", "name":"Negocios"},
             {"id":"06", "name":"Arquitectos"},
-            {"id":"07", "name":"Organizaciones"}
+            {"id":"07", "name":"Organizaciones"},
+            {"id":"08", "name":"Restaurantes"},
+            {"id":"09", "name":"Salud"},
         ];
         this.cat01 = (this.categorias.filter(val=>val.id==="01"))[0].name;
         this.cat02 = (this.categorias.filter(val=>val.id==="02"))[0].name;
@@ -35,6 +40,8 @@ class Projects extends Component {
         this.cat05 = (this.categorias.filter(val=>val.id==="05"))[0].name;        
         this.cat06 = (this.categorias.filter(val=>val.id==="06"))[0].name;
         this.cat07 = (this.categorias.filter(val=>val.id==="07"))[0].name;
+        this.cat08 = (this.categorias.filter(val=>val.id==="08"))[0].name;
+        this.cat09 = (this.categorias.filter(val=>val.id==="09"))[0].name;
     }
     render(){
         return (
@@ -47,7 +54,28 @@ class Projects extends Component {
                         </header>
                     </div>
                     <div className="inner">				
-                        <div className="row encima">
+                        <div className="row encima">                            
+                            <Project
+                            link="https://ocassole.com/"
+                            image={ocassole}
+                            title="Restaurante Ocassole"
+                            description="Restaurante comida francesa en España"
+                            date="2024"
+                            category={this.cat08}/>
+                            <Project
+                            link="https://dpat-psicologia.com/"
+                            image={dpat}
+                            title="Dpat-psicologia"
+                            description="Atención profesional en Psicología"
+                            date="2023"
+                            category={this.cat09}/>
+                            <Project
+                            link="https://www.musaic.com.co/"
+                            image={musaic}
+                            title="Musaic Baldosas"
+                            description="Negocios"
+                            date="2022"
+                            category={this.cat07}/>
                             <Project
                             link="www.convocar.net"
                             image={img01}

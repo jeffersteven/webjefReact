@@ -18,7 +18,7 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div className="App" id="top">
-          <Route exact path="/webjef/" component={Landing} />
+          <Route component={Landing} />
         </div>
         <AnchorLink href='#top' className="button style btnbottom scrolly-middle"><FontAwesomeIcon icon={faArrowAltCircleUp} /></AnchorLink>
       </BrowserRouter>

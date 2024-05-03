@@ -18,7 +18,7 @@ class Landing extends Component {
                 <Headers/>
                 <Content02/>
                 <Projects/>
-                <Contact/>
+                {/* <Contact/> */}
                 <Footer/>
             </div>
         )
