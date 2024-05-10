@@ -56,21 +56,21 @@ class Projects extends Component {
                     <div className="inner">				
                         <div className="row encima">                            
                             <Project
-                            link="https://ocassole.com/"
+                            link="www.ocassole.com"
                             image={ocassole}
-                            title="Restaurante Ocassole"
+                            title="Ocassole"
                             description="Restaurante comida francesa en España"
                             date="2024"
                             category={this.cat08}/>
                             <Project
-                            link="https://dpat-psicologia.com/"
+                            link="www.dpat-psicologia.com"
                             image={dpat}
                             title="Dpat-psicologia"
                             description="Atención profesional en Psicología"
                             date="2023"
                             category={this.cat09}/>
                             <Project
-                            link="https://www.musaic.com.co/"
+                            link="www.musaic.com.co"
                             image={musaic}
                             title="Musaic Baldosas"
                             description="Negocios"
